@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(photo_2022-03-19_16-46-40.jpg);
+   background-position: center;
+   background-size: cover;
+   overflow-x: hidden;
+   position: relative;
+}
+.nav-b{
+    display: flex;
+    padding: 4px 65px;
+}
+.nav-logo img{
+    width: 135px;
+}
+.nav-l{
+    flex: 1;
+}
+.nav-l ul{
+    margin-left: 50px;
+    display: inline;
+
+}
+.nav-l ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+.nav-l ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-l ul li::after{
+      content:'';
+      width: 0;
+      height: 2px;
+      background: yellow;
+      display: block;
+      margin: auto;
+      transition: 0.5s;
+}
+.nav-l ul li:hover::after{
+    width: 100%;
+    
+}
+.btn-1{
+    padding: 10px 20px;
+    border: 0;
+    background: yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-l .btn-1{
+float: right;
+}
+.ban-t{
+    margin: 80px 130px;
+    color: #fff;
+
+}
+.ban-t h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.ban-t h1 span{
+    color: yellow;
+}
+.v1{
+   height: 100%;
+   background: #000;
+   top: 0;
+   left: 0;
+   position: absolute; 
+   width: 80px;
+}
+.search-icon .fa{
+    height: 60%;
+    width: block;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.social-icon{
+    height: 35%;
+    width: 80px;
+    background: yellow;
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+}
+.social-icon .fa{
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+}
